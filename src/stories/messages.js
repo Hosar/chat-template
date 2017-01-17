@@ -14,10 +14,10 @@ storiesOf('Messages', module)
     inbound: true,
     backColor: 'white',
   };
-  const messages = [message, message2];
+  const messages = [message, message];
   return (
-    <div>
-      <Messages messages={messages} />
+    <div style={{ height: '150px' }}>
+      <Messages frameHeigth={'100%'} messages={messages} />
     </div>
   );
 })
